@@ -16,7 +16,7 @@
 @property (nonatomic) CGFloat detectionWidth; // Defaults to 100.0f
 
 // If YES then gesture must start at the path's start point
-// If NO then the gesture can start anywhere, but still have to match path's shape
+// If NO then the gesture can start anywhere on the recognizer's view, but still have to match path's shape
 @property (nonatomic) BOOL attached; // Defaults to NO
 
 
